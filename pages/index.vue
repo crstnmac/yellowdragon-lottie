@@ -8,12 +8,12 @@
       <h2 class="subtitle">
         My breathtaking Nuxt.js project
       </h2>
+      <div>
+        <Lottie :options="lottieOptions" />
+      </div>
+
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
+        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
           Documentation
         </a>
         <a
@@ -29,11 +29,18 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Lottie from '@/components/Lottie.vue'
 
 export default {
   components: {
-    Logo
+    Lottie
+  },
+  asyncData() {
+    return {
+      lottieOptions: {
+        animationData: require(`~/assets/animated/yellow.json`)
+      }
+    }
   }
 }
 </script>
