@@ -1,9 +1,22 @@
-# How to add Lottie animations to Vuejs/Nuxtjs
+# yellowdragon
 
-[Animation link](https://lottiefiles.com/23498-they-see-me-trollin)
+> My breathtaking Nuxt.js project
 
-To get started:
+## Build Setup
 
-        cd yellowdragon-lottie
-        yarn
-        yarn dev
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
