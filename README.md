@@ -1,6 +1,6 @@
-# yellowdragon
+# Lottie + Vue
 
-> My breathtaking Nuxt.js project
+![Lottie+vue](./vuelottie.png)
 
 ## Build Setup
 
