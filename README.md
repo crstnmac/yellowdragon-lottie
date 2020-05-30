@@ -1,5 +1,7 @@
 # Lottie + Vue
 
+[Post link](https://criston.codes/blog/add-lottie-svg-animation-to-vue)
+
 ![Lottie+vue](./vuelottie.png)
 
 ## Build Setup
